@@ -1,0 +1,29 @@
+timestamp=1662447119737
+
+[~A]
+D:/desktop files/core 2 (exim)/Projects/Aldec/Diversity_techniques/gates/src/multiplier.v=0*1879*2392
+LastVerilogToplevel=multiplier
+ModifyID=2
+Version=74
+
+[~MFT]
+0=6|0gates.mgf|2392|1147
+1=4|1gates.mgf|1613|1239
+3=8|3gates.mgf|1202|676
+
+[$root]
+A/$root=22|||1*1239
+BinW64/$root=3*676
+SLP=3*791
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216168e2f88869837b4ef63505e05447db7
+
+[multiplier]
+A/multiplier=22|../src/multiplier.v|25|1*1613
+BinW64/multiplier=3*859
+R=../src/multiplier.v|25
+SLP=3*1202
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ae76990bd7f3693aa5cae06a1fb118e3111672bef854fb9edfeeceb9b633f7607539b49f73a4387be43db1c7963174a4
+
+[~U]
+$root=12|0*1513|
+multiplier=12|0*1679||0x10

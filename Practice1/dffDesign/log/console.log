@@ -1,0 +1,528 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'D:/desktopfiles/core2(exim)/Projects/Aldec/Practice1/dffDesign/src/sim1.awc' connected to 'D:/desktopfiles/core2(exim)/Projects/Aldec/Practice1/dffDesign/src/Sim1.asdb'.
+# Waveform file 'untitled.awc' connected to 'D:/desktopfiles/core2(exim)/Projects/Aldec/Practice1/dffDesign/src/Sim1.asdb'.
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (16, 15): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (16, 15): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (16, 15): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/dffFile.v $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (17, 10): Syntax error. Unexpected token: input[_INPUT].
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (25, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (25, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (25, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/dffFile.v $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 counterFile.v : (20, 19): Syntax error. Unexpected token: ;.
+# Error: VCP2000 counterFile.v : (26, 11): Syntax error. Unexpected token: always[_ALWAYS].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: counter.
+# $root top modules: dffModule counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: counter.
+# $root top modules: dffModule counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +w_nets +access +r +access +r+w counter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.2 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 7 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5370 kB (elbread=427 elab2=4808 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  1:34 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+# VSIM: 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /dffModule/clk
+# VSIM: Error: Cannot force signal "/dffModule/clk" with formula "0 0fs, 1 14ns -r 20ns".
+# KERNEL: Error: Cannot find signal /dffModule/d
+# VSIM: Error: Cannot force signal "/dffModule/d" with formula "0 0fs, 1 50ns -r 100ns".
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+run 1000 ns
+# KERNEL: stopped at time: 5 us
+run 1000 ns
+# KERNEL: stopped at time: 6 us
+run 1000 ns
+# KERNEL: stopped at time: 7 us
+run 1000 ns
+# KERNEL: stopped at time: 8 us
+run 1000 ns
+# KERNEL: stopped at time: 9 us
+run 1000 ns
+# KERNEL: stopped at time: 10 us
+run 1000 ns
+# KERNEL: stopped at time: 11 us
+run 1000 ns
+# KERNEL: stopped at time: 12 us
+# Error: You do not have a valid license to run Advanced Dataflow. Contact Aldec for ordering information - sales@aldec.com
+run 1000 ns
+# KERNEL: stopped at time: 13 us
+run 1000 ns
+# KERNEL: stopped at time: 14 us
+run 1000 ns
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: counter.
+# $root top modules: dffModule counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 7 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5370 kB (elbread=427 elab2=4808 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  1:58 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb'.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Stimuli: Info: The stimuli set "StimuliSet2" has been made active.
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: counter.
+# $root top modules: dffModule counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/dffFile.v $dsn/src/counterFile.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: dffModule counter.
+# $root top modules: dffModule counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+run 1000 ns
+# KERNEL: stopped at time: 4 us
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counter2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: counter.
+# $root top modules: dffModule counter.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/dffFile.v $dsn/src/counterFile.v $dsn/src/counter2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP7801 counter2.v : (15, 15): Duplicated declaration of unit counter.
+# Info: VCP7802 counterFile.v : (15, 15): counter was already declared. See previous declaration.
+# Error: VCP2562 counter2.v : (17, 3): Redeclaration of port clk.
+# Error: VCP2562 counter2.v : (17, 3): Redeclaration of port reset.
+# Error: VCP2562 counter2.v : (19, 3): Redeclaration of port count.
+# Error: VCP2505 counter2.v : (19, 3): Duplicate identifier: count.
+# Compile failure 5 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counter2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Error: VCP5103 counter2.v : (21, 22): Undeclared identifier: clk.
+# Error: VCP5103 counter2.v : (24, 13): Undeclared identifier: count.
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work dffDesign $dsn/src/counter2.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: counter2.
+# $root top modules: dffModule counter counter2.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +w_nets +access +r +access +r+w counter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 6 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet2" has been made inactive.
+#  2:07 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /counter/enable not found in D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /counter/increment not found in D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /counter/decrement not found in D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /counter/mux_out not found in D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb.
+# KERNEL: Warning: KERNEL_0291 Object "/counter/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/counter/reset" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/counter/count" has already been traced.
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /dffModule/clk
+# VSIM: Error: Cannot force signal "/dffModule/clk" with formula "0 0fs, 1 14ns -r 20ns".
+# KERNEL: Error: Cannot find signal /dffModule/d
+# VSIM: Error: Cannot force signal "/dffModule/d" with formula "0 0fs, 1 50ns -r 100ns".
+# Stimuli: Info: The stimuli set "StimuliSet1" has been made active.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Error: Cancel time has to be greater than start time.
+# VSIM: Error: Cannot force signal "/counter/load" with formula "0 0fs, 1 50ns -r 100ns -cancel 10fs".
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+run 1000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'D:/desktopfiles/core2(exim)/Projects/Aldec/Practice1/dffDesign/src/counter2sim1.awc' connected to 'D:/desktopfiles/core2(exim)/Projects/Aldec/Practice1/dffDesign/src/counter2sim1.asdb'.
+# Adding file D:\desktopfiles\core2(exim)\Projects\Aldec\Practice1\dffDesign\src\counter2sim1.asdb ... Done
+# Adding file D:\desktopfiles\core2(exim)\Projects\Aldec\Practice1\dffDesign\src\counter2sim1.awc ... Done
+asim -O5 +access +w_nets +access +r +access +r+w counter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 6 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  2:42 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 1000 ns
+# KERNEL: stopped at time: 2 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w counter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 6 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  2:43 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+run 1000 ns
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 2000 ns
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 2000 ns
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +access +r +access +r+w counter
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 1.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 6 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  2:44 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+run 2000 ns
+# KERNEL: stopped at time: 6 us
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +access +r +access +r+w counter2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 6 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5369 kB (elbread=427 elab2=4807 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Practice1\dffDesign\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet3" has been made inactive.
+#  2:47 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+run 2000 ns
+# KERNEL: stopped at time: 2 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: Cannot find signal /counter/clk
+# VSIM: Error: Cannot force signal "/counter/clk" with formula "0 0fs, 1 50ns -r 100ns".
+# KERNEL: Error: Cannot find signal /counter/reset
+# VSIM: Error: Cannot force signal "/counter/reset" with formula "0 2us, 1 2100ns -r 100ns".
+# KERNEL: Error: Cannot find signal /counter/up_down
+# VSIM: Error: Cannot force signal "/counter/up_down" with formula "0 0fs, 1 0fs -r 100ns".
+# KERNEL: Error: Cannot find signal /counter/load
+# VSIM: Error: Cannot force signal "/counter/load" with formula "0 0fs, 1 50ns -r 100ns -cancel 100ns".
+# KERNEL: Error: Cannot find signal /counter/data
+# VSIM: Error: Cannot force signal "/counter/data" with formula "10#2".
+# Stimuli: Info: The stimuli set "StimuliSet3" has been made active.
+run 2000 ns
+# KERNEL: stopped at time: 4 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

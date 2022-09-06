@@ -1,0 +1,48 @@
+timestamp=1662453462678
+
+[~A]
+D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/counter2.v=0*16766*17366
+D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/counterFile.v=0*11405*12056
+D:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/dffFile.v_counterFile.v=0*13299*14056
+LastVerilogToplevel=counter2
+ModifyID=11
+Version=74
+d:/desktop files/core 2 (exim)/Projects/Aldec/Practice1/dffDesign/src/dffFile.v=0*4805*5308
+
+[~MFT]
+0=6|0dffDesign.mgf|17366|8395
+1=3|1dffDesign.mgf|17812|15147
+3=6|3dffDesign.mgf|13139|10922
+
+[$root]
+A/$root=22|||1*17422
+BinW64/$root=3*12348
+SLP=3*12463
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216b50e58d08783ddc53965ed7c1acf4646
+
+[counter]
+A/counter=22|../src/counter2.v|15|1*16130
+BinW64/counter=3*11436
+R=../src/counter2.v|15
+SLP=3*12043
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|ec8a9ceecd40c97da6d5687ce01e262f26527262ddaa47cb266f3a3c4d9b973a00b5335b32fdaa4cf040ddf95a90ec19
+
+[counter2]
+A/counter2=22|../src/counter2.v|15|1*17812
+BinW64/counter2=3*12531
+R=../src/counter2.v|15
+SLP=3*13139
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a855da6f64afbc3c67afe23f5b26e3e5c2892af726eb6bc57b5ecd21ae786d269db6572aa82fb8a5232e248d86d90592
+
+[dffModule]
+A/dffModule=22|../src/dffFile.v|25|1*13278
+BinW64/dffModule=3*9341
+R=../src/dffFile.v|25
+SLP=3*9669
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7e714515369ce7fbfa2fcb5e9594925ad9ee32c7bf8a9bc126833dd076531c3db5756b59aae8b5ecacaf4b918469127c
+
+[~U]
+$root=12|0*16341|
+counter=12|0*14876||0x10
+counter2=12|0*16523||0x10
+dffModule=12|0*12866||0x10

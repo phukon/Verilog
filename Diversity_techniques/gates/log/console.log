@@ -1,0 +1,89 @@
+alog -O2 -sve -msg 5 -sv2k12 -work gates $dsn/src/multiplier.v
+# Pass 1. Scanning modules hierarchy.
+# Error: VCP2000 multiplier.v : (27, 17): Syntax error. Unexpected token: wire[_WIRE].
+# Error: VCP2567 multiplier.v : (25, 21): Undefined direction of port y1.
+# Error: VCP2567 multiplier.v : (25, 25): Undefined direction of port y2.
+# Compile failure 3 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work gates $dsn/src/multiplier.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Unit top modules: multiplier.
+# $root top modules: multiplier.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +access +r +access +r+w multiplier
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 1 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 3 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5368 kB (elbread=427 elab2=4806 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\desktop files\core 2 (exim)\Projects\Aldec\Diversity_techniques\gates\src\wave.asdb
+#  12:01 PM, Tuesday, September 6, 2022
+#  Simulation has been initialized
+# VSIM: 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/desktop files/core 2 (exim)/Projects/Aldec/Diversity_techniques/gates/src/wave.asdb'.
+run 10000 ns
+# KERNEL: stopped at time: 10 us
+run 10000 ns
+# KERNEL: stopped at time: 20 us
+run 10000 ns
+# KERNEL: stopped at time: 30 us
+run 1000 ns
+# KERNEL: stopped at time: 31 us
+run 1000 ns
+# KERNEL: stopped at time: 32 us
+run 1000 ns
+# KERNEL: stopped at time: 33 us
+run 100 ns
+# KERNEL: stopped at time: 33100 ns
+endsim
+# ASDB: Info: Writing data to disk. Please wait...
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work gates $dsn/src/multiplier.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Error: VCP2000 multiplier.v : (27, 15): Syntax error. Unexpected token: ;.
+# Error: VCP2000 multiplier.v : (36, 10): Syntax error. Unexpected token: endmodule[_ENDMODULE].
+# Compile failure 2 Errors 0 Warnings  Analysis time: 0[s].
+alog -O2 -sve -msg 5 -sv2k12 -work gates $dsn/src/multiplier.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: multiplier.
+# $root top modules: multiplier.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
