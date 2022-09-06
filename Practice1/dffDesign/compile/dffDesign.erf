@@ -14,8 +14,8 @@ UPDATEPROGRESS 88
 UPDATEPROGRESS 92
 UPDATEPROGRESS 96
 UPDATEPROGRESS 100
-MESSAGE "Unit top modules: counter2."
-MESSAGE "$root top modules: dffModule counter counter2."
+MESSAGE "Unit top modules: multiplier."
+MESSAGE "$root top modules: dffModule counter counter2 multiplier."
 ENDPROGRESS Compiling...
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
 WARNING ALOG: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."

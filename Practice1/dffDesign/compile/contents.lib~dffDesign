@@ -1,4 +1,4 @@
-11
+13
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
 ~M 3 "../src/counter2.v" 15 counter
@@ -7,3 +7,5 @@
 ~A 1 "../src/counter2.v" 15 counter2
 ~M 3 "../src/dffFile.v" 25 dffModule
 ~A 1 "../src/dffFile.v" 25 dffModule
+~M 3 "../src/add_shit_multFile.v" 15 multiplier
+~A 1 "../src/add_shit_multFile.v" 15 multiplier
